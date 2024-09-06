@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .content{
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        border: 2px solid blanchedalmond;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
+    }
+    #kavya{
+       
+        font-size: medium;
+        background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
+        display: flex;
+        justify-content: center;
+    }
+    .megu{
+        height:450px;
+        width: 950px;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+    #sun{
+        font-size:30px;
+        border: 2px solid black;
+        border-radius: 15px;
+        transition: all;
+        
+        
+    }
+    #sun:hover{
+        background-color: #FF0000;
+        
+        
+    }
+</style>
+<body>
+    <div class="content">
+     <div class="kabu">
+    <form id="kavya" >
+        <fieldset>
+            <div class="megu">
+            <legend style="text-align: center;">Registration form</legend>
+    <label for="name">Enter your name</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="name">Enter your password</label>
+    <input type="password" id="name">
+    <br>
+    <br>
+    <label for="name">Enter your address</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+      <h3>select game</h3>
+                <label for="">Hockey</label>
+                <input type="checkbox" id="hi">
+                <br>
+                <label for="">Football</label>
+                <input type="checkbox" id="hi">
+                <br>
+                <label for="">Badminton</label>
+                <input type="checkbox" id="hi">
+                <br>
+                <label for="">Cricket</label>
+                <input type="checkbox" id="hi">
+                <br>
+                <label for="">PUBG</label>
+                <input type="checkbox" id="hi">
+                <br>
+                <br>
+                <label for="hello">gender</label>
+                <br>
+
+                <label for="by">male</label>
+                <input type="radio" id="by">
+                <label for="hi">female</label>
+                <input type="radio" id="hi">
+                <br>
+                <br>
+                <label for="age">select your age</label>
+                <select name="Select your age" id="age">
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                </select>
+                <br>
+                <br>
+                <label for="photo">select photo</label>
+                <input type="file" id="photo">
+                <br>
+                <br>
+                <div class="monu">
+                <button id="sun">click me</button>
+                <button id="sun">reset</button>
+                <button id="sun">submit form</button>
+            </div>
+            </form>
+        </fieldset>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
